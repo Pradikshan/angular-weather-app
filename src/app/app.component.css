@@ -1,10 +1,9 @@
-/* Container and Layout */
 .container {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ebf8ff; /* Light blue background */
+  background-color: #ebf8ff;
 }
 
 .weather-card {
@@ -12,10 +11,9 @@
   padding: 32px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 384px; /* 24rem (or w-96 in Tailwind) */
+  width: 384px;
 }
 
-/* Title */
 .weather-title {
   font-size: 24px;
   font-weight: bold;
@@ -23,7 +21,6 @@
   margin-bottom: 16px;
 }
 
-/* Input Field */
 .input-group {
   margin-bottom: 16px;
 }
@@ -36,7 +33,6 @@
   box-sizing: border-box;
 }
 
-/* Button */
 .weather-button {
   width: 100%;
   background-color: #3b82f6;
@@ -52,7 +48,6 @@
   background-color: #2563eb;
 }
 
-/* Loading, Error, and Weather Info Text */
 .loading-text,
 .error-text {
   margin-top: 16px;
@@ -60,7 +55,7 @@
 }
 
 .error-text {
-  color: #ef4444; /* Red color */
+  color: #ef4444;
 }
 
 .weather-info {
@@ -76,5 +71,5 @@
 
 .weather-detail {
   text-align: center;
-  color: #4b5563; /* Gray color */
+  color: #4b5563;
 }
