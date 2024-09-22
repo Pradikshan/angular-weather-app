@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { WeatherService } from './services/weather.service'; // Ensure this is the correct path to your service
+import { WeatherService } from './services/weather.service';
 import { FormsModule } from '@angular/forms';
 import { NgIf } from '@angular/common';
 
